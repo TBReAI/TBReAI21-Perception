@@ -7,7 +7,7 @@ The video below displays how the 2020 implementation of the perception pipeline 
 
 ![alt text](https://github.com/TBReAI/TBReAI21-Perception/blob/main/old-implementation/images-and-video/old-detection.gif "Detection GIF")
 
-The goal of the current implementation is to build a low-latency, high-accuracy, computationally-efficient perception system that can be deployed on our vehicle for FS-AI 2021.
+The goal of the current implementation is to build a low-latency, high-accuracy, computationally-efficient perception system that can be deployed on our vehicle for the **2020 FS-AI competition**.
 
 ##### UPDATE
 > Currently working on gaining access to the FSOCO dataset.
