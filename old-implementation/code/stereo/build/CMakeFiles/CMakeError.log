@@ -1,0 +1,385 @@
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /home/xps/cpp/tbre-Perception/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_b8671/fast"
+/usr/bin/make -f CMakeFiles/cmTC_b8671.dir/build.make CMakeFiles/cmTC_b8671.dir/build
+make[1]: Entering directory '/home/xps/cpp/tbre-Perception/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_b8671.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_b8671.dir/CheckSymbolExists.c.o   -c /home/xps/cpp/tbre-Perception/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_b8671
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b8671.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_b8671.dir/CheckSymbolExists.c.o  -o cmTC_b8671 
+CMakeFiles/cmTC_b8671.dir/CheckSymbolExists.c.o: In function `main':
+CheckSymbolExists.c:(.text+0x1b): undefined reference to `pthread_create'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_b8671.dir/build.make:97: recipe for target 'cmTC_b8671' failed
+make[1]: *** [cmTC_b8671] Error 1
+make[1]: Leaving directory '/home/xps/cpp/tbre-Perception/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_b8671/fast' failed
+make: *** [cmTC_b8671/fast] Error 2
+
+File /home/xps/cpp/tbre-Perception/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/xps/cpp/tbre-Perception/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_5b364/fast"
+/usr/bin/make -f CMakeFiles/cmTC_5b364.dir/build.make CMakeFiles/cmTC_5b364.dir/build
+make[1]: Entering directory '/home/xps/cpp/tbre-Perception/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_5b364.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_5b364.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_5b364
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5b364.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_5b364.dir/CheckFunctionExists.c.o  -o cmTC_5b364 -lpthreads 
+/usr/bin/ld: cannot find -lpthreads
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_5b364.dir/build.make:97: recipe for target 'cmTC_5b364' failed
+make[1]: *** [cmTC_5b364] Error 1
+make[1]: Leaving directory '/home/xps/cpp/tbre-Perception/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_5b364/fast' failed
+make: *** [cmTC_5b364/fast] Error 2
+
+
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /home/xps/Perception_CleanUP/tbre-Perception-stereo/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_6059b/fast"
+/usr/bin/make -f CMakeFiles/cmTC_6059b.dir/build.make CMakeFiles/cmTC_6059b.dir/build
+make[1]: Entering directory '/home/xps/Perception_CleanUP/tbre-Perception-stereo/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_6059b.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_6059b.dir/CheckSymbolExists.c.o   -c /home/xps/Perception_CleanUP/tbre-Perception-stereo/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_6059b
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6059b.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_6059b.dir/CheckSymbolExists.c.o  -o cmTC_6059b 
+CMakeFiles/cmTC_6059b.dir/CheckSymbolExists.c.o: In function `main':
+CheckSymbolExists.c:(.text+0x1b): undefined reference to `pthread_create'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_6059b.dir/build.make:97: recipe for target 'cmTC_6059b' failed
+make[1]: *** [cmTC_6059b] Error 1
+make[1]: Leaving directory '/home/xps/Perception_CleanUP/tbre-Perception-stereo/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_6059b/fast' failed
+make: *** [cmTC_6059b/fast] Error 2
+
+File /home/xps/Perception_CleanUP/tbre-Perception-stereo/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/xps/Perception_CleanUP/tbre-Perception-stereo/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_ea912/fast"
+/usr/bin/make -f CMakeFiles/cmTC_ea912.dir/build.make CMakeFiles/cmTC_ea912.dir/build
+make[1]: Entering directory '/home/xps/Perception_CleanUP/tbre-Perception-stereo/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ea912.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_ea912.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_ea912
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ea912.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_ea912.dir/CheckFunctionExists.c.o  -o cmTC_ea912 -lpthreads 
+/usr/bin/ld: cannot find -lpthreads
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_ea912.dir/build.make:97: recipe for target 'cmTC_ea912' failed
+make[1]: *** [cmTC_ea912] Error 1
+make[1]: Leaving directory '/home/xps/Perception_CleanUP/tbre-Perception-stereo/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_ea912/fast' failed
+make: *** [cmTC_ea912/fast] Error 2
+
+
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /home/xps/Perception_CleanUP/tbre-Perception-stereo/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_4b68b/fast"
+/usr/bin/make -f CMakeFiles/cmTC_4b68b.dir/build.make CMakeFiles/cmTC_4b68b.dir/build
+make[1]: Entering directory '/home/xps/Perception_CleanUP/tbre-Perception-stereo/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_4b68b.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_4b68b.dir/CheckSymbolExists.c.o   -c /home/xps/Perception_CleanUP/tbre-Perception-stereo/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_4b68b
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4b68b.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_4b68b.dir/CheckSymbolExists.c.o  -o cmTC_4b68b 
+CMakeFiles/cmTC_4b68b.dir/CheckSymbolExists.c.o: In function `main':
+CheckSymbolExists.c:(.text+0x1b): undefined reference to `pthread_create'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_4b68b.dir/build.make:97: recipe for target 'cmTC_4b68b' failed
+make[1]: *** [cmTC_4b68b] Error 1
+make[1]: Leaving directory '/home/xps/Perception_CleanUP/tbre-Perception-stereo/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_4b68b/fast' failed
+make: *** [cmTC_4b68b/fast] Error 2
+
+File /home/xps/Perception_CleanUP/tbre-Perception-stereo/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/xps/Perception_CleanUP/tbre-Perception-stereo/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_aec89/fast"
+/usr/bin/make -f CMakeFiles/cmTC_aec89.dir/build.make CMakeFiles/cmTC_aec89.dir/build
+make[1]: Entering directory '/home/xps/Perception_CleanUP/tbre-Perception-stereo/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_aec89.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_aec89.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_aec89
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_aec89.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_aec89.dir/CheckFunctionExists.c.o  -o cmTC_aec89 -lpthreads 
+/usr/bin/ld: cannot find -lpthreads
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_aec89.dir/build.make:97: recipe for target 'cmTC_aec89' failed
+make[1]: *** [cmTC_aec89] Error 1
+make[1]: Leaving directory '/home/xps/Perception_CleanUP/tbre-Perception-stereo/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_aec89/fast' failed
+make: *** [cmTC_aec89/fast] Error 2
+
+
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /home/xps/Perception_CleanUP/tbre-Perception-stereo/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_eb74d/fast"
+/usr/bin/make -f CMakeFiles/cmTC_eb74d.dir/build.make CMakeFiles/cmTC_eb74d.dir/build
+make[1]: Entering directory '/home/xps/Perception_CleanUP/tbre-Perception-stereo/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_eb74d.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_eb74d.dir/CheckSymbolExists.c.o   -c /home/xps/Perception_CleanUP/tbre-Perception-stereo/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_eb74d
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_eb74d.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_eb74d.dir/CheckSymbolExists.c.o  -o cmTC_eb74d 
+CMakeFiles/cmTC_eb74d.dir/CheckSymbolExists.c.o: In function `main':
+CheckSymbolExists.c:(.text+0x1b): undefined reference to `pthread_create'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_eb74d.dir/build.make:97: recipe for target 'cmTC_eb74d' failed
+make[1]: *** [cmTC_eb74d] Error 1
+make[1]: Leaving directory '/home/xps/Perception_CleanUP/tbre-Perception-stereo/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_eb74d/fast' failed
+make: *** [cmTC_eb74d/fast] Error 2
+
+File /home/xps/Perception_CleanUP/tbre-Perception-stereo/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/xps/Perception_CleanUP/tbre-Perception-stereo/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_e9804/fast"
+/usr/bin/make -f CMakeFiles/cmTC_e9804.dir/build.make CMakeFiles/cmTC_e9804.dir/build
+make[1]: Entering directory '/home/xps/Perception_CleanUP/tbre-Perception-stereo/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_e9804.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_e9804.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_e9804
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e9804.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_e9804.dir/CheckFunctionExists.c.o  -o cmTC_e9804 -lpthreads 
+/usr/bin/ld: cannot find -lpthreads
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_e9804.dir/build.make:97: recipe for target 'cmTC_e9804' failed
+make[1]: *** [cmTC_e9804] Error 1
+make[1]: Leaving directory '/home/xps/Perception_CleanUP/tbre-Perception-stereo/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_e9804/fast' failed
+make: *** [cmTC_e9804/fast] Error 2
+
+
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /home/xps/Desktop/he-j-code-2019-20/Perception/stereo/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_0e7ee/fast"
+/usr/bin/make -f CMakeFiles/cmTC_0e7ee.dir/build.make CMakeFiles/cmTC_0e7ee.dir/build
+make[1]: Entering directory '/home/xps/Desktop/he-j-code-2019-20/Perception/stereo/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_0e7ee.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_0e7ee.dir/CheckSymbolExists.c.o   -c /home/xps/Desktop/he-j-code-2019-20/Perception/stereo/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_0e7ee
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0e7ee.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_0e7ee.dir/CheckSymbolExists.c.o  -o cmTC_0e7ee 
+CMakeFiles/cmTC_0e7ee.dir/CheckSymbolExists.c.o: In function `main':
+CheckSymbolExists.c:(.text+0x1b): undefined reference to `pthread_create'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_0e7ee.dir/build.make:97: recipe for target 'cmTC_0e7ee' failed
+make[1]: *** [cmTC_0e7ee] Error 1
+make[1]: Leaving directory '/home/xps/Desktop/he-j-code-2019-20/Perception/stereo/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_0e7ee/fast' failed
+make: *** [cmTC_0e7ee/fast] Error 2
+
+File /home/xps/Desktop/he-j-code-2019-20/Perception/stereo/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/xps/Desktop/he-j-code-2019-20/Perception/stereo/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_2b71b/fast"
+/usr/bin/make -f CMakeFiles/cmTC_2b71b.dir/build.make CMakeFiles/cmTC_2b71b.dir/build
+make[1]: Entering directory '/home/xps/Desktop/he-j-code-2019-20/Perception/stereo/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_2b71b.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_2b71b.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_2b71b
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2b71b.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_2b71b.dir/CheckFunctionExists.c.o  -o cmTC_2b71b -lpthreads 
+/usr/bin/ld: cannot find -lpthreads
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_2b71b.dir/build.make:97: recipe for target 'cmTC_2b71b' failed
+make[1]: *** [cmTC_2b71b] Error 1
+make[1]: Leaving directory '/home/xps/Desktop/he-j-code-2019-20/Perception/stereo/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_2b71b/fast' failed
+make: *** [cmTC_2b71b/fast] Error 2
+
+
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /home/xps/Desktop/BAK_DISS/he-j-code-2019-20/Perception/stereo/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_ec54e/fast"
+/usr/bin/make -f CMakeFiles/cmTC_ec54e.dir/build.make CMakeFiles/cmTC_ec54e.dir/build
+make[1]: Entering directory '/home/xps/Desktop/BAK_DISS/he-j-code-2019-20/Perception/stereo/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ec54e.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_ec54e.dir/CheckSymbolExists.c.o   -c /home/xps/Desktop/BAK_DISS/he-j-code-2019-20/Perception/stereo/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_ec54e
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ec54e.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_ec54e.dir/CheckSymbolExists.c.o  -o cmTC_ec54e 
+CMakeFiles/cmTC_ec54e.dir/CheckSymbolExists.c.o: In function `main':
+CheckSymbolExists.c:(.text+0x1b): undefined reference to `pthread_create'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_ec54e.dir/build.make:97: recipe for target 'cmTC_ec54e' failed
+make[1]: *** [cmTC_ec54e] Error 1
+make[1]: Leaving directory '/home/xps/Desktop/BAK_DISS/he-j-code-2019-20/Perception/stereo/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_ec54e/fast' failed
+make: *** [cmTC_ec54e/fast] Error 2
+
+File /home/xps/Desktop/BAK_DISS/he-j-code-2019-20/Perception/stereo/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/xps/Desktop/BAK_DISS/he-j-code-2019-20/Perception/stereo/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_8ee59/fast"
+/usr/bin/make -f CMakeFiles/cmTC_8ee59.dir/build.make CMakeFiles/cmTC_8ee59.dir/build
+make[1]: Entering directory '/home/xps/Desktop/BAK_DISS/he-j-code-2019-20/Perception/stereo/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_8ee59.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_8ee59.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_8ee59
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8ee59.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_8ee59.dir/CheckFunctionExists.c.o  -o cmTC_8ee59 -lpthreads 
+/usr/bin/ld: cannot find -lpthreads
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_8ee59.dir/build.make:97: recipe for target 'cmTC_8ee59' failed
+make[1]: *** [cmTC_8ee59] Error 1
+make[1]: Leaving directory '/home/xps/Desktop/BAK_DISS/he-j-code-2019-20/Perception/stereo/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_8ee59/fast' failed
+make: *** [cmTC_8ee59/fast] Error 2
+
+
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /home/xps/Desktop/he-j-code-2019-20/Perception/stereo/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_af58a/fast"
+/usr/bin/make -f CMakeFiles/cmTC_af58a.dir/build.make CMakeFiles/cmTC_af58a.dir/build
+make[1]: Entering directory '/home/xps/Desktop/he-j-code-2019-20/Perception/stereo/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_af58a.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_af58a.dir/CheckSymbolExists.c.o   -c /home/xps/Desktop/he-j-code-2019-20/Perception/stereo/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_af58a
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_af58a.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_af58a.dir/CheckSymbolExists.c.o  -o cmTC_af58a 
+CMakeFiles/cmTC_af58a.dir/CheckSymbolExists.c.o: In function `main':
+CheckSymbolExists.c:(.text+0x1b): undefined reference to `pthread_create'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_af58a.dir/build.make:97: recipe for target 'cmTC_af58a' failed
+make[1]: *** [cmTC_af58a] Error 1
+make[1]: Leaving directory '/home/xps/Desktop/he-j-code-2019-20/Perception/stereo/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_af58a/fast' failed
+make: *** [cmTC_af58a/fast] Error 2
+
+File /home/xps/Desktop/he-j-code-2019-20/Perception/stereo/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/xps/Desktop/he-j-code-2019-20/Perception/stereo/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_b8ecf/fast"
+/usr/bin/make -f CMakeFiles/cmTC_b8ecf.dir/build.make CMakeFiles/cmTC_b8ecf.dir/build
+make[1]: Entering directory '/home/xps/Desktop/he-j-code-2019-20/Perception/stereo/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_b8ecf.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_b8ecf.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_b8ecf
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b8ecf.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_b8ecf.dir/CheckFunctionExists.c.o  -o cmTC_b8ecf -lpthreads 
+/usr/bin/ld: cannot find -lpthreads
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_b8ecf.dir/build.make:97: recipe for target 'cmTC_b8ecf' failed
+make[1]: *** [cmTC_b8ecf] Error 1
+make[1]: Leaving directory '/home/xps/Desktop/he-j-code-2019-20/Perception/stereo/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_b8ecf/fast' failed
+make: *** [cmTC_b8ecf/fast] Error 2
+
+
