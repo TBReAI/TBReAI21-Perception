@@ -1,4 +1,4 @@
-Requirements for each program to compile:
+### Requirements for each program to compile:
 
 LiDAR requires  [ OPENCV, PCL ]
 STEREO requires [ OPENCV, ZED] , ZED requires CUDA.
