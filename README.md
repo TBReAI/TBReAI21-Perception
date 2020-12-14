@@ -10,5 +10,7 @@ classifies cones for the purpose of autonomous racing.
 
 ![alt text](https://github.com/TBReAI/TBReAI21-Perception/blob/main/old-implementation/images-and-video/old-detection.gif "Detection GIF")
 
-UPDATE: Currently working on gaining access to the FSOCO dataset. <br />
-UPDATE: Until we gain access to the FSOCO dataset for our 2021 implementation, we will be using the MIT driverless open source dataset.
+##### UPDATE
+* Currently working on gaining access to the FSOCO dataset. <br /> <br />
+##### UPDATE
+* Until we gain access to the FSOCO dataset for our 2021 implementation, we will be using the MIT driverless open source dataset.
