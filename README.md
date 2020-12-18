@@ -7,7 +7,7 @@ The video below displays how the 2020 implementation of the perception pipeline 
 
 ![alt text](https://github.com/TBReAI/TBReAI21-Perception/blob/main/YOLOv3-Tiny-Implementation/images-and-video/old-detection.gif "Detection GIF")
 
-The goal of the current implementation is to build a low-latency, high-accuracy, computationally-efficient perception system that can be deployed on our vehicle for the **2020 FS-AI competition**.
+The current goal is to improve upon the work of the past year by building a more computationally-efficient perception model that is capable of achieving higher detection accuracy with lower latency. Our hope is to deploy the system on our vehicle for the **2021 FS-AI competition**. We will be building the new object detection system in Python to be more aligned with the other systems in our autonomous pipeline. 
 
 ##### UPDATE
 > Currently working on gaining access to the FSOCO dataset.
