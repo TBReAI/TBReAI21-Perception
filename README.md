@@ -3,7 +3,7 @@
 
 Building the perception pipeline for Team Bath Racing Electric's 2021 autonomous racing car. The code for the 2019/2020 implementation of the perception pipeline, which was based on the YOLO v3-Tiny algorithm and built using C++, can be found [here](YOLOv3-Tiny-Implementation/code).
 
-The video below displays how the model that we built in 2019/2020 detects and classifies blue and yellow cones for the purpose of autonomous racing.  
+The video below displays how our current model (i.e. the 2019/2020 implementation) detects and classifies blue and yellow cones for the purpose of autonomous racing.  
 
 ![alt text](https://github.com/TBReAI/TBReAI21-Perception/blob/main/YOLOv3-Tiny-Implementation/images-and-video/old-detection.gif "Detection GIF")
 
