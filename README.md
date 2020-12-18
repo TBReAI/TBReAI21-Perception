@@ -1,13 +1,13 @@
 # TBReAI21 Perception
 ### Computationally Efficient Perception for Autonomous Racing
 
-Building the perception pipeline for Team Bath Racing Electric's 2021 autonomous racing car. The code for the 2020 implementation of the perception pipeline can be found [here](YOLOv3-Tiny-Implementation/code).
+Building the perception pipeline for Team Bath Racing Electric's 2021 autonomous racing car. The code for the 2019/2020 implementation of the perception pipeline, which was based on the YOLO v3-Tiny algorithm and built using C++, can be found [here](YOLOv3-Tiny-Implementation/code).
 
 The video below displays how the 2020 implementation of the perception pipeline detects and classifies cones for the purpose of autonomous racing.  
 
 ![alt text](https://github.com/TBReAI/TBReAI21-Perception/blob/main/YOLOv3-Tiny-Implementation/images-and-video/old-detection.gif "Detection GIF")
 
-The current goal is to improve upon the work of the past year by building a more computationally-efficient perception model that is capable of achieving higher detection accuracy with lower latency. Our hope is to deploy the system on our vehicle for the **2021 FS-AI competition**. We will be building the new object detection system in Python to be more aligned with the other systems in our autonomous pipeline. 
+The current goal is to improve upon the work of the past year by building a more computationally-efficient perception model that is capable of achieving higher detection accuracy with lower latency. Our hope is to deploy the system on our vehicle for the **2021 FS-AI competition**. We will be building this new model using Python to be more aligned with the other systems in our autonomous pipeline. 
 
 ##### UPDATE
 > Currently working on gaining access to the FSOCO dataset.
