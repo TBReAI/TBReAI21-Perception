@@ -13,3 +13,5 @@ The current goal is to improve upon the work of the past year by building a more
 > Currently working on gaining access to the FSOCO dataset.
 ##### UPDATE
 > Until we gain access to the FSOCO dataset for our 2021 implementation, we will be using the MIT driverless open source dataset.
+##### UPDATE
+> Cloned training code for YOLOv3 in PyTorch from [https://github.com/ultralytics/yolov3](https://github.com/ultralytics/yolov3). 
