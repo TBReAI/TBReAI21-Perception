@@ -1,6 +1,6 @@
 # Multisensory Perception Pipeline
 
-The pipeline uses multiple sensory inputs to evaluate the environment features.
+The pipeline uses multiple sensory inputs to evaluate the environment features. A report detailing the research and development process can be provided upon request.
 
 ### Stereo Cameras
 A ZED Stereo Camera will be used to gather the information in the field of view. The left input frames will be used to both detect and classify the cones by using a YOLOv3-tiny object detector. For each detected cone, the bounding box of the cone is determined using the detector. The location estimate of the detected cones can be obtained by using an HSV filter to extract the correct cone color from the bounding box. The final cone distance estimation will be produced by averaging several point clouds from the extracted color pixels. 
