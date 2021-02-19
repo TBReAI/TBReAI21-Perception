@@ -19,7 +19,7 @@ For STEREO, the config and weights for YOLOv3-Tiny are all located in in [stereo
 
 #### Implementation steps
 
-To compile the code, navigate to the build folder in a linux terminal for each program and use: `cmake .. && make`
+To compile the code, navigate to the appropriate build folder in the terminal and use: `cmake .. && make`
 
 - Run LiDAR with: `./perception <.pcd file>`
 
