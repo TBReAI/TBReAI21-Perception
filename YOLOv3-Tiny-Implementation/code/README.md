@@ -1,7 +1,7 @@
 ### Requirements for each program to compile:
 
-> LiDAR requires  [ OPENCV, PCL ]
-> STEREO requires [ OPENCV, ZED] , ZED requires CUDA.
+- LiDAR requires  [ OPENCV, PCL ]
+- STEREO requires [ OPENCV, ZED] , ZED requires CUDA.
 
 
 All the resources such as the neural network weights and configuration files are located in each program: folder /build/res/
@@ -10,6 +10,7 @@ For LiDAR, there is a pcd point cloud reader called pcd_read located
 in the /build/res folder. 
 
 Run on linux using: 
+
 `./pcd_read < .pcd file >`
 
 Some testing pcd files are included in res/
