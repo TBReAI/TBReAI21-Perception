@@ -3,9 +3,7 @@
 - LiDAR requires  [ OPENCV, PCL ]
 - STEREO requires [ OPENCV, ZED] , ZED requires CUDA.
 
-### Details
-
-#### LiDAR
+#### LiDAR program details
 
 For LiDAR, the pcd point cloud (pcd_read) is located in [lidar/build/res/](lidar/build/res)
 
@@ -15,7 +13,7 @@ Some pcd testing files are included [here](lidar/build/res).
 
 As the training data is in RGB, the CNN only detects LiDAR information with RGB values not intensity.
 
-#### STEREO
+#### STEREO program details
 
 For STEREO, the config and weights for YOLOv3-Tiny are all located in in [stereo/build/res/](stereo/build/res)
 
