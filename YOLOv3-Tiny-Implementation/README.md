@@ -1,4 +1,4 @@
-# 2020 Perception Pipeline
+# Multisensory Perception Pipeline
 
 The pipeline uses multiple sensory inputs to evaluate the environment features.
 
