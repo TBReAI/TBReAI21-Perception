@@ -1,7 +1,9 @@
 # TBReAI21 Perception
 ### Computationally Efficient Perception for Autonomous Racing
 
-Building the perception pipeline for Team Bath Racing Electric's autonomous racing car. The code for the current implementation of the perception pipeline, which was based on the YOLO v3-Tiny network structure and built using C++, can be found [**here**](YOLOv3-Tiny-Implementation/code). A LiDAR-based detector was also built using convolutional neural networks. However, as our vehicle will only utilize stereo cameras, this detector will be scrapped for future iterations. 
+This repository was created to publically display the code developed by Team Bath Racing Electric for deep automotive perception. The development process is carried out in a private repository and the final resulting code is uploaded here. 
+
+The code for the current implementation of the perception pipeline, which was based on the YOLO v3-Tiny network structure and built using C++, can be found [**here**](YOLOv3-Tiny-Implementation/code). A LiDAR-based detector was also built using convolutional neural networks. However, as our vehicle will only utilize stereo cameras, this detector will be scrapped for future iterations. 
 
 The video below displays how our current model detects and classifies blue and yellow cones for the purpose of autonomous racing.  
 
